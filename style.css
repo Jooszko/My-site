@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 body {
-    /* overflow-x: hidden; */
-
+    overflow-x: hidden;
 }
 
 html {
     scroll-behavior: smooth;
+    min-width: 615px;
 }
 
 * {
@@ -34,12 +34,13 @@ nav {
     padding: 30px 130px;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1000px) {
     nav {
         padding: 30px 50px;
     }
 }
-@media screen and (max-width: 750px){
+
+@media screen and (max-width: 750px) {
     nav {
         padding: 20px 20px;
     }
@@ -81,14 +82,14 @@ nav ul li a:hover:after {
     width: 100%;
 }
 
-nav #nav_logo1{
+nav #nav_logo1 {
     width: 45px;
     height: 45px;
     margin-right: 13px;
     margin-top: 9px;
 }
 
-nav #nav_logo2{
+nav #nav_logo2 {
     width: 45px;
     height: 45px;
 
@@ -156,14 +157,9 @@ nav #nav_logo2{
     margin-bottom: 30px;
 }
 
-#person{
-    /* position: relative;
-    left: 70%; */
-    /* top: 5%; */
-
+#person {
     height: 100vh;
-
-} 
+}
 
 #person img {
     /* width: 26%;
@@ -176,7 +172,7 @@ nav #nav_logo2{
     left: 1180px;
 }
 
-#person_mobile{
+#person_mobile {
     display: none;
     width: 100vh;
     height: 300px;
@@ -234,7 +230,7 @@ nav #nav_logo2{
     margin-right: auto;
 }
 
-#about_me #about_me_content span{
+#about_me #about_me_content span {
     color: #fd4766;
 }
 
@@ -257,7 +253,7 @@ nav #nav_logo2{
     width: 100%;
 }
 
-#portfolio_content{
+#portfolio_content {
     position: relative;
     top: 28%;
     transform: translateY(-40%);
@@ -281,7 +277,7 @@ nav #nav_logo2{
 #portfolio #boxes {
     margin-left: auto;
     margin-right: auto;
-    width: fit-content;
+    width: 1290px;
 
 }
 
@@ -289,8 +285,8 @@ nav #nav_logo2{
     width: 370px;
     height: 220px;
     /* background-color: #fa5672; */
-    background: rgb(118,68,255);
-    background: linear-gradient(121deg, #1c99fe 0%, rgba(253,71,102,1) 80%);
+    background: rgb(118, 68, 255);
+    background: linear-gradient(121deg, #1c99fe 0%, rgba(253, 71, 102, 1) 80%);
     text-align: center;
     border-radius: 0 30px 0 30px;
     color: white;
@@ -369,12 +365,12 @@ nav #nav_logo2{
     font-weight: 700;
 }
 
-.experience_content{
+.experience_content {
     margin-top: 8px;
     margin-bottom: 8px;
 }
 
-.experience_technologies span{
+.experience_technologies span {
     font-weight: 700;
 }
 
@@ -413,14 +409,6 @@ nav #nav_logo2{
 
 
 
-
-
-
-
-
-
-
-
 #scrollTop {
     display: none;
     position: fixed;
@@ -435,16 +423,16 @@ nav #nav_logo2{
     padding: 15px;
     border-radius: 50px;
     font-size: 18px;
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
 }
 
 #scrollTop img {
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
     position: relative;
-    top: -3px;
-    left: -1px;
+    /* top: -3px;
+    left: -1px; */
 }
 
 #scrollTop:hover {
@@ -452,50 +440,38 @@ nav #nav_logo2{
 
 }
 
+#footer{
+    width: 100%;
+    text-align: center;
+}
 
-@media screen and (max-width: 37em){
+
+@media screen and (max-width: 37em) {
     .title {
         font-size: 3.9em;
     }
 }
 
 
-/* #animated_circle{
-    width: 200px;
-    height: 200px;
-    border-radius: 200px;
-    border: 3px dashed #fd4766;
-    animation: circleAnim 10s infinite linear;
-    position: relative;
-    top: -300px;
-    left: -70px;
-}
-
-@keyframes circleAnim {
-    from {
-        transform: rotate(0deg);
-      }
-      to {
-        transform: rotate(359deg);
-      }
-} */
-
-
-@media screen and (max-width: 1600px){
-    .content{
+@media screen and (max-width: 1600px) {
+    .content {
         width: 800px;
     }
+
     .content h1 {
         font-size: 60px;
         max-width: 800px;
     }
+
     #small_desctription {
         font-size: 15px;
     }
+
     .btn {
         padding: 15px 33px;
         font-size: 15px;
     }
+
     #person img {
         left: 1000px;
         width: 330px;
@@ -505,37 +481,79 @@ nav #nav_logo2{
         height: 26%; */
     }
 
-    #about_me h1{
+    #about_me h1 {
         font-size: 50px;
         padding-top: 70px;
     }
 
-    #about_me #about_me_content{
+    #about_me #about_me_content {
         font-size: 20px;
     }
 
-    #experience h1{
+    #experience h1 {
         font-size: 50px;
         padding-top: 40px;
     }
 }
-@media screen and (max-width: 1400px){
+
+@media screen and (max-width: 1400px) {
     #person img {
         left: 870px;
         width: 330px;
         height: 450px;
-        
+
     }
 }
-@media screen and (max-width: 1216px){
+
+@media screen and (max-width: 1316px) {
+    #portfolio .box {
+        width: 300px;
+        height: 215px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    #portfolio #boxes {
+        width: 970px;
+
+    }
+
+    #portfolio #boxes h1 {
+        font-size: 40px;
+    }
+
+
+}
+
+@media screen and (max-width: 1216px) {
+
+    .hero {
+        height: 600px;
+    }
+
+    #about_me {
+        height: 700px;
+    }
+
+    #experience {
+        height: 600px;
+    }
+
+    #portfolio {
+        height: 650px;
+    }
+
     nav #nav_logo1 {
         width: 35px;
         height: 35px;
     }
-    nav #nav_logo2{
+
+    nav #nav_logo2 {
         width: 35px;
         height: 35px;
-    
+
     }
 
     .content h1 {
@@ -551,26 +569,31 @@ nav #nav_logo2{
         left: 730px;
         width: 337px;
         height: 450px;
-        
+
     }
 
-    #about_me #about_me_content{
+    #about_me #about_me_content {
         font-size: 18px;
         width: 800px;
     }
 
-    
+
 }
 
-@media screen and (max-width: 1076px){
+@media screen and (max-width: 1076px) {
     nav #nav_logo1 {
         width: 35px;
         height: 35px;
     }
-    nav #nav_logo2{
+
+    nav #nav_logo2 {
         width: 35px;
         height: 35px;
-    
+
+    }
+
+    .hero {
+        height: 700px;
     }
 
     .content {
@@ -586,21 +609,22 @@ nav #nav_logo2{
         margin-right: auto;
     }
 
-    .content #small_desctription{
+    .content #small_desctription {
         margin-left: auto;
         margin-right: auto;
     }
 
-    #person{
+    #person {
         display: none;
     }
-    #person_mobile{
+
+    #person_mobile {
         display: block;
         width: 100%;
     }
 
     #person_mobile img {
-        width: 200px;
+        width: 225px;
         height: 300px;
         position: relative;
         left: 50%;
@@ -610,29 +634,57 @@ nav #nav_logo2{
     #hello_text {
         animation: type 3s steps(60, end);
     }
-    
+
     #small_desctription {
         animation: type2 5s steps(100, end);
     }
 
+    #portfolio {
+        height: 900px;
+        margin-top: 450px;
+    }
+
+    #portfolio .box {
+        width: 500px;
+        height: 230px;
+        float: none;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #portfolio #boxes {
+        width: 510px;
+
+    }
+
+    #portfolio #boxes h2 {
+        font-size: 30px;
+        padding-top: 20px;
+    }
+
+
+
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 900px) {
+    #about_me {
+        height: 900px;
+    }
 
-    #about_me #about_me_content{
+    #about_me #about_me_content {
         font-size: 17px;
         width: 700px;
     }
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 750px) {
     .content #hello_text {
         width: 500px;
         font-size: 40px;
     }
 
-    #about_me #about_me_content{
-        font-size: 15px;
+    #about_me #about_me_content {
+        font-size: 20px;
         width: 500px;
     }
 }
