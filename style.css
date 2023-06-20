@@ -480,6 +480,19 @@ nav #nav_logo2 {
     text-align: center;
 }
 
+#skillsItemBox2{
+    position: relative;
+    top: 14px;
+}
+#skillsItemBox3{
+    position: relative;
+    top: 29px;
+}
+#skillsItemBox4{
+    position: relative;
+    top: 14px;
+}
+
 #mySkills h3{
     text-align: center;
     margin-top: 17px;
