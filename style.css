@@ -252,7 +252,7 @@ nav #nav_logo2 {
 
 #portfolio_content {
     position: relative;
-    top: 28%;
+    top: 18%;
     transform: translateY(-40%);
 }
 
@@ -302,6 +302,9 @@ nav #nav_logo2 {
     font-weight: 800;
     color: white;
 }
+#portfolio .box .box-h3-special {
+   font-size: 15px;
+}
 
 #portfolio .box:hover {
     transform: scale(1.1);
@@ -314,6 +317,9 @@ nav #nav_logo2 {
     height: 50px;
 }
 
+#portfolio .box #iconC {
+    margin-top: 10px;
+}
 
 #experience {
     height: 100vh;
@@ -596,7 +602,7 @@ nav #nav_logo2 {
 @media screen and (max-width: 1316px) {
     #portfolio .box {
         width: 300px;
-        height: 215px;
+        height: 235px;
         margin-left: 10px;
         margin-right: 10px;
         margin-top: 15px;
@@ -605,7 +611,6 @@ nav #nav_logo2 {
 
     #portfolio #boxes {
         width: 970px;
-
     }
 
     #portfolio #boxes h1 {
@@ -631,6 +636,7 @@ nav #nav_logo2 {
 
     #portfolio {
         height: 650px;
+        margin-bottom: 150px;
     }
 
     nav #nav_logo1 {
@@ -673,7 +679,9 @@ nav #nav_logo2 {
         position:unset;
     }
 
-
+    /* .box span{
+        visibility: hidden;
+    } */
 }
 
 @media screen and (max-width: 1076px) {
@@ -741,12 +749,12 @@ nav #nav_logo2 {
 
     #portfolio {
         height: 900px;
-        margin-top: 450px;
+        margin-top: 650px;
     }
 
     #portfolio .box {
         width: 500px;
-        height: 230px;
+        height: 255px;
         float: none;
         margin-top: 30px;
         margin-bottom: 30px;
@@ -754,7 +762,6 @@ nav #nav_logo2 {
 
     #portfolio #boxes {
         width: 510px;
-
     }
 
     #portfolio #boxes h2 {
